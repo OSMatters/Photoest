@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A0000010000000000000001 /* PhotoestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000101 /* PhotoestApp.swift */; };
+		1A0000010000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000102 /* ContentView.swift */; };
+		1A0000010000000000000003 /* EditorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000103 /* EditorScreen.swift */; };
+		1A0000010000000000000004 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000104 /* Models.swift */; };
+		1A0000010000000000000005 /* ImageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000105 /* ImageComposer.swift */; };
+		1A0000010000000000000006 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000106 /* CameraController.swift */; };
+		1A0000010000000000000007 /* DesignTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000107 /* DesignTheme.swift */; };
+		1A0000010000000000000009 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000111 /* SettingsScreen.swift */; };
+		1A0000010000000000000010 /* ShapeVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000112 /* ShapeVector.swift */; };
+		1A0000010000000000000013 /* PremiumScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000119 /* PremiumScreen.swift */; };
+		1A0000010000000000000008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000108 /* Assets.xcassets */; };
+		1A0000010000000000000011 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000310 /* Localizable.strings */; };
+		1A0000010000000000000012 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000311 /* InfoPlist.strings */; };
+		1A0000010000000000000014 /* pro.pag in Resources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000120 /* pro.pag */; };
+		1A0000010000000000000015 /* Vendor/libpag.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000121 /* Vendor/libpag.xcframework */; };
+		1A0000010000000000000016 /* Vendor/libpag.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000121 /* Vendor/libpag.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A0000010000000000000017 /* frame in Resources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000122 /* frame */; };
+		1A0000010000000000000018 /* RemoteConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000123 /* RemoteConfigService.swift */; };
+		1A0000010000000000000019 /* UpdatePromptOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000124 /* UpdatePromptOverlayView.swift */; };
+		1A0000010000000000000020 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1A0000010000000000000902 /* FirebaseCore */; };
+		1A0000010000000000000021 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 1A0000010000000000000903 /* FirebaseRemoteConfig */; };
+		1A0000010000000000000022 /* AppAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000125 /* AppAnalytics.swift */; };
+		1A0000010000000000000023 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 1A0000010000000000000904 /* FirebaseAnalytics */; };
+		1A0000010000000000000024 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000126 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1A0000010000000000000503 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1A0000010000000000000016 /* Vendor/libpag.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A0000010000000000000101 /* PhotoestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoestApp.swift; sourceTree = "<group>"; };
+		1A0000010000000000000102 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A0000010000000000000103 /* EditorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorScreen.swift; sourceTree = "<group>"; };
+		1A0000010000000000000104 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		1A0000010000000000000105 /* ImageComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageComposer.swift; sourceTree = "<group>"; };
+		1A0000010000000000000106 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		1A0000010000000000000107 /* DesignTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTheme.swift; sourceTree = "<group>"; };
+		1A0000010000000000000108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A0000010000000000000109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A0000010000000000000110 /* Photoest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photoest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0000010000000000000111 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		1A0000010000000000000112 /* ShapeVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeVector.swift; sourceTree = "<group>"; };
+		1A0000010000000000000119 /* PremiumScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumScreen.swift; sourceTree = "<group>"; };
+		1A0000010000000000000120 /* pro.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Resources/pro.pag; sourceTree = "<group>"; };
+		1A0000010000000000000121 /* Vendor/libpag.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Vendor/libpag.xcframework; sourceTree = "<group>"; };
+		1A0000010000000000000122 /* frame */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ../frame; sourceTree = SOURCE_ROOT; };
+		1A0000010000000000000123 /* RemoteConfigService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigService.swift; sourceTree = "<group>"; };
+		1A0000010000000000000124 /* UpdatePromptOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePromptOverlayView.swift; sourceTree = "<group>"; };
+		1A0000010000000000000125 /* AppAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAnalytics.swift; sourceTree = "<group>"; };
+		1A0000010000000000000126 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1A0000010000000000000113 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1A0000010000000000000114 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1A0000010000000000000115 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1A0000010000000000000116 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A0000010000000000000117 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		1A0000010000000000000118 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+	/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A0000010000000000000201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0000010000000000000015 /* Vendor/libpag.xcframework in Frameworks */,
+				1A0000010000000000000020 /* FirebaseCore in Frameworks */,
+				1A0000010000000000000021 /* FirebaseRemoteConfig in Frameworks */,
+				1A0000010000000000000023 /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0000010000000000000301 = {
+			isa = PBXGroup;
+			children = (
+				1A0000010000000000000302 /* Photoest */,
+				1A0000010000000000000303 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A0000010000000000000302 /* Photoest */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000010000000000000101 /* PhotoestApp.swift */,
+				1A0000010000000000000102 /* ContentView.swift */,
+				1A0000010000000000000103 /* EditorScreen.swift */,
+				1A0000010000000000000104 /* Models.swift */,
+				1A0000010000000000000105 /* ImageComposer.swift */,
+				1A0000010000000000000106 /* CameraController.swift */,
+				1A0000010000000000000107 /* DesignTheme.swift */,
+				1A0000010000000000000111 /* SettingsScreen.swift */,
+				1A0000010000000000000119 /* PremiumScreen.swift */,
+				1A0000010000000000000123 /* RemoteConfigService.swift */,
+				1A0000010000000000000124 /* UpdatePromptOverlayView.swift */,
+				1A0000010000000000000125 /* AppAnalytics.swift */,
+				1A0000010000000000000126 /* GoogleService-Info.plist */,
+					1A0000010000000000000112 /* ShapeVector.swift */,
+					1A0000010000000000000120 /* pro.pag */,
+					1A0000010000000000000121 /* Vendor/libpag.xcframework */,
+					1A0000010000000000000122 /* frame */,
+					1A0000010000000000000108 /* Assets.xcassets */,
+					1A0000010000000000000310 /* Localizable.strings */,
+					1A0000010000000000000311 /* InfoPlist.strings */,
+					1A0000010000000000000109 /* Info.plist */,
+				);
+			path = Photoest;
+			sourceTree = "<group>";
+		};
+		1A0000010000000000000303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000010000000000000110 /* Photoest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A0000010000000000000401 /* Photoest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0000010000000000000702 /* Build configuration list for PBXNativeTarget "Photoest" */;
+			buildPhases = (
+				1A0000010000000000000501 /* Sources */,
+				1A0000010000000000000201 /* Frameworks */,
+				1A0000010000000000000503 /* Embed Frameworks */,
+				1A0000010000000000000502 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Photoest;
+			packageProductDependencies = (
+				1A0000010000000000000902 /* FirebaseCore */,
+				1A0000010000000000000903 /* FirebaseRemoteConfig */,
+				1A0000010000000000000904 /* FirebaseAnalytics */,
+			);
+			productName = Photoest;
+			productReference = 1A0000010000000000000110 /* Photoest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A0000010000000000000601 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					1A0000010000000000000401 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = 1A0000010000000000000701 /* Build configuration list for PBXProject "Photoest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+				knownRegions = (
+					en,
+					Base,
+					"zh-Hans",
+					"zh-Hant",
+				);
+			mainGroup = 1A0000010000000000000301;
+			packageReferences = (
+				1A0000010000000000000901 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 1A0000010000000000000303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A0000010000000000000401 /* Photoest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A0000010000000000000502 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+				files = (
+					1A0000010000000000000008 /* Assets.xcassets in Resources */,
+					1A0000010000000000000011 /* Localizable.strings in Resources */,
+					1A0000010000000000000012 /* InfoPlist.strings in Resources */,
+					1A0000010000000000000014 /* pro.pag in Resources */,
+					1A0000010000000000000017 /* frame in Resources */,
+					1A0000010000000000000024 /* GoogleService-Info.plist in Resources */,
+				);
+				runOnlyForDeploymentPostprocessing = 0;
+			};
+	/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A0000010000000000000310 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A0000010000000000000113 /* en */,
+				1A0000010000000000000114 /* zh-Hans */,
+				1A0000010000000000000115 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		1A0000010000000000000311 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A0000010000000000000116 /* en */,
+				1A0000010000000000000117 /* zh-Hans */,
+				1A0000010000000000000118 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A0000010000000000000501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0000010000000000000001 /* PhotoestApp.swift in Sources */,
+				1A0000010000000000000002 /* ContentView.swift in Sources */,
+				1A0000010000000000000003 /* EditorScreen.swift in Sources */,
+				1A0000010000000000000004 /* Models.swift in Sources */,
+				1A0000010000000000000005 /* ImageComposer.swift in Sources */,
+				1A0000010000000000000006 /* CameraController.swift in Sources */,
+				1A0000010000000000000007 /* DesignTheme.swift in Sources */,
+				1A0000010000000000000009 /* SettingsScreen.swift in Sources */,
+				1A0000010000000000000010 /* ShapeVector.swift in Sources */,
+				1A0000010000000000000013 /* PremiumScreen.swift in Sources */,
+				1A0000010000000000000018 /* RemoteConfigService.swift in Sources */,
+				1A0000010000000000000019 /* UpdatePromptOverlayView.swift in Sources */,
+				1A0000010000000000000022 /* AppAnalytics.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1A0000010000000000000901 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A0000010000000000000902 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A0000010000000000000901 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		1A0000010000000000000903 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A0000010000000000000901 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		1A0000010000000000000904 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A0000010000000000000901 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A0000010000000000000801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A0000010000000000000802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A0000010000000000000803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = R2372567GG;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Photoest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.photoest.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1A0000010000000000000804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = R2372567GG;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Photoest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.photoest.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A0000010000000000000701 /* Build configuration list for PBXProject "Photoest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0000010000000000000801 /* Debug */,
+				1A0000010000000000000802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0000010000000000000702 /* Build configuration list for PBXNativeTarget "Photoest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0000010000000000000803 /* Debug */,
+				1A0000010000000000000804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A0000010000000000000601 /* Project object */;
+}

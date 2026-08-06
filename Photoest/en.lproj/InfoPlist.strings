@@ -1,0 +1,3 @@
+"NSCameraUsageDescription" = "Photoest needs camera access to capture photos for editing.";
+"NSPhotoLibraryAddUsageDescription" = "Photoest saves edited photos to your photo library.";
+"NSPhotoLibraryUsageDescription" = "Photoest imports photos from your library for editing.";

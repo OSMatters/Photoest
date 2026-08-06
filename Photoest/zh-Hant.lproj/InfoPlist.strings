@@ -1,0 +1,3 @@
+"NSCameraUsageDescription" = "Photoest 需要使用相機來拍攝用於編輯的照片。";
+"NSPhotoLibraryAddUsageDescription" = "Photoest 需要將編輯後的照片儲存到你的相簿。";
+"NSPhotoLibraryUsageDescription" = "Photoest 需要從你的相簿匯入照片進行編輯。";
